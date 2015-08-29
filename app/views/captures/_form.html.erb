@@ -1,0 +1,26 @@
+<%= form_for @capture do |f| %>
+  <% if @capture.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@capture.errors.count, "error") %> prohibited this capture from being saved:</h2>
+
+      <ul>
+      <% @capture.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="form-group">
+    <%= f.text_field :email, autofocus: true, class: "form-control input-lg input-block", placeholder: "Email Address" %>
+  </div>
+
+
+  <%= f.submit "Join Pre-Launch List", class: "btn btn-black" %>
+
+
+    
+
+<% end %>
+
+

@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Captures</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Email</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @captures.each do |capture| %>
+      <tr>
+        <td><%= capture.email %></td>
+        <td><%= link_to 'Show', capture %></td>
+        <td><%= link_to 'Edit', edit_capture_path(capture) %></td>
+        <td><%= link_to 'Destroy', capture, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Capture', new_capture_path %>

@@ -1,0 +1,101 @@
+<body id="home">
+  <div id="hero">
+    <div class="container">
+      <h1 class="hero-text animated fadeInDown">
+        Self-Checkout App for <br />
+        Your Favorite Stores.
+      </h1>
+      <!-- <p class="sub-text animated fadeInDown">
+        Get a complete existing website with great design up and running in no time.
+      </p> -->
+      <div class="cta animated fadeInDown">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="form-inline">
+              <%= render 'form' %>
+            </div>
+          </div>
+        </div>
+        <div class="coming-soon">
+          <p class="inline">Coming soon to:</p><%= image_tag 'icon-apple', class: "img-responsive inline" %> <%= image_tag 'icon-android', class: "img-responsive inline" %>
+        </div>
+      </div>
+      
+      <div class="img"></div>
+    </div>
+    <div class="winner">
+      <h6></h6>
+    </div>
+  </div>
+
+  <div id="features">
+    <div class="container">
+      <div class="row feature backwards">
+        <div class="col-sm-6 info">
+          <h4>Finally, no waiting in line.</h4>
+          <p>
+            InstaBuy allows you to buy all your items using your smartphone.
+          </p>
+          <p>
+            Search or scan and get your results in the form of an easy-to-use interface. Then, click on the buy button to pay for your items. Finally, show your digital receipt to an employee and finish your shopping.
+          </p>
+        </div>
+        <div class="col-sm-6 image">
+          <%= image_tag("phone-intro3", class: "img-responsive") %>
+        </div>
+      </div>
+    </div>    
+  </div>
+
+  <div id="features2">
+    <div class="container">
+      <div class="row feature">
+        <div class="col-md-6 info">
+          <h4>Search or Scan</h4>
+          <p>
+            Using the InstaBuy app, search for items or retailers OR use the barcode scanner to instantly find  your item.
+          </p>
+        </div>
+        <div class="col-md-6 image">
+          <%= image_tag("item-search.png", class: "img-responsive") %>
+        </div>
+      </div>
+      <div class="divider"></div>
+      <div class="row feature backwards">
+        <div class="col-md-6 info">
+          <h4>Select</h4>
+          <p>
+            Add all your items to your shopping cart or use our "Buy Now" button. Then, select whether you want to self-checkout or in-store pickup.
+          </p>
+        </div>
+        <div class="col-md-6 image animated fadeInLeft">
+          <%= image_tag("item-scan.png", class: "img-responsive cool") %>
+        </div>
+      </div>
+      <div class="divider"></div>
+      <div class="row feature">
+        <div class="col-md-6 info">
+          <h4>Buy</h4>
+          <p>
+            Pay for your purchase using your credit card, loyalty rewards card, or Pay Pal.
+          </p>
+        </div>
+        <div class="col-md-6 image">
+          <%= image_tag("shopping-cart.png", class: "img-responsive") %>
+        </div>
+      </div>
+    </div>    
+  </div>
+    
+  <div id="cta">
+    <h4>Join the pre-launch mailing list</h4>
+    <div class="center">
+      <div class="form-inline">
+        <%= render 'form' %>
+      </div>
+    </div>
+  </div>
+
+  
+    
+</body>
