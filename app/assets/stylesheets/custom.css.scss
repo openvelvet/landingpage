@@ -794,7 +794,7 @@ a:focus, button:focus {
     left: 670px;
     width: 570px;
     height: 500px;
-    background-image: url("home-hero2.png");
+    background: asset_url("home-hero2.png");
     background-repeat: no-repeat; }
     @media (max-width: 991px) {
       #home #hero .img {
