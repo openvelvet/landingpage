@@ -350,9 +350,9 @@ a:focus, button:focus {
         color: #fff; } }
   .navbar.hero .navbar-brand {
     color: #fff;
-    font-weight: 500;
-    font-size: 26px;
-    font-family: "Lato", "Helvetica Neue", Arial; }
+    font-weight: 700;
+    font-size: 44px;
+    font-family: "Helvetica Neue", Arial; }
   .navbar.hero .navbar-nav > li.dropdown > a .caret {
     border-top-color: #EBEBEB; }
   .navbar.hero .navbar-nav > li > a {
@@ -1331,7 +1331,7 @@ a:focus, button:focus {
     font-size: 17px;
     letter-spacing: 0.7px;
     font-weight: 300;
-    font-family: Lato;
+    font-family: "Helvetica Neue";
     text-transform: uppercase;
     border-radius: 5px;
     -webkit-transition: all 0.2s linear;
@@ -2129,7 +2129,7 @@ a:focus, button:focus {
     font-size: 17px;
     letter-spacing: 0.7px;
     font-weight: 300;
-    font-family: Lato;
+    font-family: "Helvetica Neue";
     text-transform: uppercase;
     border-radius: 5px;
     -webkit-transition: all 0.2s linear;
@@ -7033,7 +7033,7 @@ html.bg {
     font-size: 17px;
     letter-spacing: 0.7px;
     font-weight: 300;
-    font-family: Lato;
+    font-family: "Helvetica Neue";
     text-transform: uppercase;
     border-radius: 5px;
     -webkit-transition: all 0.2s linear;
@@ -7054,6 +7054,15 @@ html.bg {
 @media (min-width: 763px) {
   .form-inline .form-group input {
     width: 340px; }}
+
+.green {
+  color: #00b16a;
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 46px;
+  margin-bottom: 10px;
+}
+
 
 
 
