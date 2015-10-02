@@ -12,9 +12,6 @@ class CapturesController < ApplicationController
   def show
   end
 
-  def andre
-  end
-
   def thankyou
   end
 

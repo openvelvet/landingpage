@@ -141,8 +141,8 @@
   vertical-align: middle;
   zoom: 1;
   padding: 15px 20px;
-  font-weight: 400;
-  font-size: 17px;
+  font-weight: 500;
+  font-size: 18px;
   color: #fff !important;
   text-shadow: rgba(0, 0, 0, 0.2) 0 -1px 0;
   border: 0px;
@@ -281,7 +281,7 @@ a:focus, button:focus {
   .navbar.normal .navbar-header .navbar-brand {
     color: #fff;
     padding: 25px 15px;
-    font-weight: 500;
+    font-weight: 300;
     font-size: 23px; }
   .navbar.normal .navbar-header .navbar-toggle {
     margin-top: 17px; }
@@ -351,11 +351,21 @@ a:focus, button:focus {
       .navbar.hero .navbar-nav > .active > a {
         background: transparent;
         color: #fff; } }
-  .navbar.hero .navbar-brand {
+  .navbar.hero .navbar-brand > img {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: 5px;
+  }
+  .navbar.hero .navbar-brand > h1 {
     color: #fff;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 44px;
-    font-family: "Helvetica Neue", Arial; }
+    font-family: "Helvetica Neue", Arial;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    left: -16px; }
   .navbar.hero .navbar-nav > li.dropdown > a .caret {
     border-top-color: #EBEBEB; }
   .navbar.hero .navbar-nav > li > a {
@@ -742,7 +752,7 @@ a:focus, button:focus {
     line-height: 52px;
     text-align: left;
     font-size: 37px;
-    text-transform: uppercase;
+/*    text-transform: uppercase;*/
     font-weight: 300;
     letter-spacing: .3px;
     color: #fff;
@@ -797,7 +807,7 @@ a:focus, button:focus {
     left: 670px;
     width: 570px;
     height: 500px;
-    background: asset_url("home-hero3.png");
+    background: asset_url("home.png");
     background-repeat: no-repeat; }
     @media (max-width: 991px) {
       #home #hero .img {
@@ -827,7 +837,7 @@ a:focus, button:focus {
   /* mixin found in partials/snippets */
   margin-top: 100px;
   margin-top: 20px;
-  margin-bottom: -200px }
+/*  margin-bottom: -200px*/ }
   @media (max-width: 991px) {
     #home #features {
       margin-top: 30px;
@@ -7057,6 +7067,21 @@ html.bg {
   .form-inline .form-group input {
     width: 340px; }}
 
+@media (min-width: 763px) {
+  #mobile-header {
+    display: none; }
+    #mobile-header h1 {
+      color: white; }}
+
+@media (max-width: 763px) {
+    #home #hero {
+      padding-top: 170px;
+      height: 650px; }
+    #mobile-header h1 {
+      color: white;
+      text-align: center;
+      margin-bottom: 40px; }}
+
 .green {
   color: #00b16a;
   font-weight: 300;
@@ -7064,6 +7089,9 @@ html.bg {
   line-height: 46px;
   margin-bottom: 10px;
 }
+
+
+
 
 
 
