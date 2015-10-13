@@ -2,12 +2,23 @@
   <div id="hero">
     <div class="container">
       <div id="mobile-header">
-        <h1>Self-Checkout</h1>
+        <h1>ShopNearby</h1>
       </div>
+      <br><br>
       <h1 class="hero-text animated fadeInDown">
-         Increase foot-traffic and improve <br/>
-         the customers shopping experience.
+         Drive customers into your stores.
       </h1>
+      <div class="row">
+        <div class="col-md-8">
+          <p class="hero-text animated fadeInDown">
+            We designed ShopNearby to find specific items simple, convenient
+            and fun. Quickly search or scan items to access real-time inventory,
+            price and aisle location at participating stores. 
+          </p>
+        </div>
+      </div>
+      
+      
       <!-- <p class="sub-text animated fadeInDown">
         Get a complete existing website with great design up and running in no time.
       </p> -->
@@ -15,23 +26,21 @@
         <div class="row">
           <div class="col-md-8">
             <div class="form-inline">
-              <%= render 'form' %>
+              <div class="btn-green1">Send me a brief overview</div>
             </div>
           </div>
         </div>
-        <div class="coming-soon">
+        <!-- <div class="coming-soon">
           <p class="inline">Coming soon to:</p><%= image_tag 'icon-apple.png', class: "img-responsive inline" %> <%= image_tag 'icon-android.png', class: "img-responsive inline" %>
-        </div>
+        </div> -->
       </div>
       
       <div class="img"></div>
     </div>
-    <div class="winner">
-      <h6></h6>
-    </div>
+    
   </div>
 
-  <div id="features">
+  <!-- <div id="features">
     <div class="container">
       <div class="row feature backwards">
         <div class="info center">
@@ -42,67 +51,79 @@
         </div>
       </div>
     </div>    
-  </div>
+  </div> -->
 
   <div id="features2">
     <div class="container">
-      <div class="row feature">
-        <div class="col-md-6 info">
-          <h4>Search</h4>
+      <div class="row feature backwards">
+        <div class="col-md-8 info">
+          <h4>Get real-time information</h4>
           <p>
-            Find the products you’re looking for before you go to the store.
+            Stop guessing, hoping, or calling your local stores for specific items. ShopNearby lets you see everything on your phone so before you visit the store you'll know exactly what you need and where it's at.
           </p>
         </div>
-        <div class="col-md-6 image">
-          <%= image_tag("search2.png", class: "img-responsive") %>
+        <div class="col-md-4 image animated fadeInLeft">
+          <%= image_tag("ralphs.png", class: "img-responsive cool") %>
+        </div>
+      </div>
+      <div class="divider"></div>
+      <div class="row feature">
+        <div class="col-md-8 info">
+          <h4>Makes repeat shopping simple</h4>
+          <p>
+            With the shopping list, ShopNearby lets you quickly pull up the information for your favorite items so you don't need to scan or search for the same items everytime.
+          </p>
+        </div>
+        <div class="col-md-4 image">
+          <%= image_tag("SearchResults.png", class: "img-responsive") %>
         </div>
       </div>
       <div class="divider"></div>
       <div class="row feature backwards">
-        <div class="col-md-6 info">
-          <h4>Scan</h4>
+        <div class="col-md-8 info">
+          <h4>Search by store or item</h4>
           <p>
-            After you enter the store, scan each product you want to buy using the barcode scanner in the app.
+            ShopNearby lets you find what you're looking for in multiple ways. Either search or scan by item, browse by category or popular items, or search by store.
           </p>
         </div>
-        <div class="col-md-6 image animated fadeInLeft">
-          <%= image_tag("scan2.png", class: "img-responsive cool") %>
+        <div class="col-md-4 image animated fadeInLeft">
+          <%= image_tag("ralphs.png", class: "img-responsive cool") %>
         </div>
       </div>
       <div class="divider"></div>
       <div class="row feature">
-        <div class="col-md-6 info">
+        <div class="col-md-8 info">
           <h4>Add</h4>
           <p>
-            Once the product is scanned you can update the quantity or just add it to your cart.
+            Once the item is scanned you can update the quantity or just add it to your cart.
           </p>
         </div>
-        <div class="col-md-6 image">
-          <%= image_tag("item2.png", class: "img-responsive") %>
+        <div class="col-md-4 image">
+          <%= image_tag("ItemDetails.png", class: "img-responsive") %>
         </div>
       </div>
       <div class="divider"></div>
       <div class="row feature backwards">
-        <div class="col-md-6 info">
-          <h4>Create</h4>
+        <div class="col-md-8 info">
+          <h4>Save</h4>
           <p>
-            Once you have added all your products to your cart and are ready to pay click on the "Create QR Code" button.
+            Once you have added all your items to your cart and are ready to pay click on the "Create QR Code" button.
           </p>
         </div>
-        <div class="col-md-6 image animated fadeInLeft">
-          <%= image_tag("cart2.png", class: "img-responsive cool") %>
+        <div class="col-md-4 image animated fadeInLeft">
+          <%= image_tag("list.png", class: "img-responsive cool") %>
         </div>
       </div>
       <div class="divider"></div>
       <div class="row feature">
-        <div class="col-md-6 info">
-          <h4>Pay</h4>
+        <div class="col-md-8 info">
+          <h4>Browse</h4>
           <p>
             Walk to the our dedicated self-checkout line, place the QR code in front of the scanner and pay.
           </p>
         </div>
-        <div class="col-md-6 image">
-          <%= image_tag("instructions.png", class: "img-responsive") %>
+        <div class="col-md-4 image">
+          <%= image_tag("items.png", class: "img-responsive") %>
         </div>
       </div>
     </div>    
