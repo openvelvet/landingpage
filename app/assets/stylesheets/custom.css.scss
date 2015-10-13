@@ -173,9 +173,9 @@
   -webkit-font-smoothing: antialiased;
   display: inline-block;
   vertical-align: middle;
-  padding: 20px 35px;
+  padding: 18px 35px;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 22px;
   font-family: "Helvetica Neue"; 
   color: #fff !important;
   border: 0px;
@@ -192,14 +192,13 @@
   -ms-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear; }
-  .button:hover {
+  .btn-green1:hover {
     color: #fff;
     text-decoration: none; }
-  .button:active {
+  .btn-green1:active {
     box-shadow: inset 0px 3px 3px rgba(0, 0, 0, 0.29); }
-  .button.button-small {
+  .btn-green1.btn-small {
     padding: 10px 33px;
-    border: 1px solid #68A2EE;
     font-size: 14px;
     font-weight: 500; }
 
