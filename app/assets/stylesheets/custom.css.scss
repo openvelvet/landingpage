@@ -780,7 +780,7 @@ a:focus, button:focus {
     font-family: "Helvetica Neue", Arial;
     line-height: 44px;
     text-align: left;
-    font-size: 32px;
+    font-size: 38px;
 /*    text-transform: uppercase;*/
     font-weight: 300;
     letter-spacing: .3px;
@@ -840,7 +840,7 @@ a:focus, button:focus {
   #home #hero .img {
     position: absolute;
     top: -40px;
-    left: 670px;
+    left: 700px;
     width: 570px;
     height: 500px;
     background: asset_url("stores.png");
@@ -850,11 +850,11 @@ a:focus, button:focus {
         display: none;
         width: 40%; } }
   #home #hero p {
-    font-size: 18px;
-    color: white;
-    font-weight: 200;
-    padding-top: 10px;
     color: #666666;
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 1.3em;
+    font-weight: 300
   }
   #home #hero .winner {
     margin-top: 105px;
@@ -874,7 +874,9 @@ a:focus, button:focus {
   /* mixin found in partials/snippets */
   margin-top: 100px;
   margin-top: 20px;
-/*  margin-bottom: -200px*/ }
+  background-color: #f8f8f8;
+  padding-top: 20px;
+  padding-bottom: 50px }
   @media (max-width: 991px) {
     #home #features {
       margin-top: 30px;
@@ -1012,7 +1014,6 @@ a:focus, button:focus {
       font-size: 20px;
       margin-top: 20px;
       line-height: 1.3em;
-      width: 83%;
       font-weight: 300; }
       @media (max-width: 991px) {
         #home #features2 .feature .info p {
