@@ -843,7 +843,7 @@ a:focus, button:focus {
     left: 700px;
     width: 570px;
     height: 500px;
-    background: asset_url("stores.png");
+    background: asset_url("razors.png");
     background-repeat: no-repeat; }
     @media (max-width: 991px) {
       #home #hero .img {
@@ -884,7 +884,8 @@ a:focus, button:focus {
   @media (max-width: 763px) {
     #home #features {
       margin-top: -100px;
-      margin-bottom: 50px; } }
+      margin-bottom: 50px;
+      padding-top: 100px; } }
   #home #features .header {
     text-align: center; }
     #home #features .header h2 {
@@ -912,21 +913,21 @@ a:focus, button:focus {
       #home #features .feature {
         margin-top: 10px; } }
     #home #features .feature .info h4 {
-      color: #00b16a;
-      font-weight: 300;
-      font-size: 38px;
-      line-height: 46px;
-      margin-top: 35px; }
+        color: #666666;
+        font-weight: 300;
+        font-size: 38px;
+        line-height: 46px;
+        margin-top: 35px;
+        padding-bottom: 30px; }
       @media (max-width: 991px) {
         #home #features .feature .info h4 {
           text-align: center; } }
     #home #features .feature .info p {
-      color: #6C7279;
+      color: #666666;
       font-size: 20px;
       margin-top: 20px;
       line-height: 1.3em;
-
-      font-weight: normal; }
+      font-weight: 300; }
       @media (max-width: 991px) {
         #home #features .feature .info p {
           text-align: center;
@@ -7119,7 +7120,7 @@ html.bg {
 @media (max-width: 763px) {
     #home #hero {
       padding-top: 80px;
-      height: 600px; }
+      height: 520px; }
     #mobile-header h1 {
       color: #00b16a;
       position: relative;
@@ -7132,6 +7133,9 @@ html.bg {
   line-height: 46px;
   margin-bottom: 10px;
 }
+
+
+
 
 
 
