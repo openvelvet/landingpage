@@ -15,6 +15,9 @@ class CapturesController < ApplicationController
   def thankyou
   end
 
+  def shoppers
+  end
+
   # GET /captures/new
   def new
     @capture = Capture.new

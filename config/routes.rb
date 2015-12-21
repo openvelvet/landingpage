@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   resources :captures, only: [:new, :create]
 
   get 'thankyou', to: 'captures#thankyou'
+  get 'shoppers', to: 'captures#shoppers'
 
   root 'captures#new'
 
