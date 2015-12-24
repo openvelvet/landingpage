@@ -3,8 +3,9 @@ Rails.application.routes.draw do
 
   get 'thankyou', to: 'captures#thankyou'
   get 'shoppers', to: 'captures#shoppers'
+  get 'partners', to: 'captures#new'
 
-  root 'captures#new'
+  root 'captures#shoppers'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
