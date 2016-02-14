@@ -1,160 +1,93 @@
-<body id="home">
-  <div id="hero">
-    <div class="container">
-      <div id="mobile-header">
+<body class="index" id="to-top">
+
+    <!-- Jumbotron -->
+    <header class="jumbotron" role="banner">
+
+      <div class="container">
+
         <div class="row">
-          <div class="form-inline">
-            <h1>ShopNearby</h1>
-          </div>
-        </div>
-      </div>
-      <br><br>
-      <h1 class="hero-text animated fadeInDown">
-         Shopping Made Easy
-      </h1>
-      <div class="row">
-        <div class="col-md-8">
-          <p class="hero-text animated fadeInDown">
-            Find and buy any item available in stock at stores near you.
-          </p>
-        </div>
-      </div>
+
+          <div class="col-md-12">
+
+            <!-- Logo -->
+            <figure class="text-center">
+              <a href="./index.html">
+                <img class="img-logo" src="images/logo3.png" alt="">
+              </a>
+            </figure> <!-- /.text-center -->
+
+            <!-- Title -->
+            <h1>Shopping Made Easy</h1>
+
+            <!-- Sub title -->
+            <p>Find and buy <u>any</u> item available in stock from stores near you!</p>
+
+            <div class="row">
+
+              <div class="col-xs-12">
+
+                <form class="subscribe-form form-inline" action="./index.html" role="form">
+
+                  <!-- Input -->
+                  <div class="form-group">
+
+                    <label class="sr-only" for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email address">
+
+                  </div> <!-- /.form-group -->
+
+                  <!-- Button -->
+                  <button class="btn btn-success" type="submit">Become a VIP Shopper for Free</button>
+
+                </form> <!-- /.subscribe-form -->
+
+              </div> <!-- /.col-md-6 -->
+
+            </div> <!-- /.row -->
 
 
-      <!-- <p class="sub-text animated fadeInDown">
-        Get a complete existing website with great design up and running in no time.
-      </p> -->
-      <div class="cta animated fadeInDown">
+          </div> <!-- /.col-md-7 -->
+
+        </div> <!-- /.row -->
+
+      </div> <!-- /.container -->
+
+    </header> <!-- /.jumbotron -->
+
+    <!-- Footer -->
+    <footer class="footer-section" role="contentinfo">
+
+      <div class="container">
+
         <div class="row">
-          <div class="col-md-8">
-            <form class="form">
-              <div class="form-group">
-                <input type="email" class="form-control" id="email" placeholder="Enter email address"><br>
-                <button type="submit" class="btn-green1">Become a VIP Shopper for Free</button>
-              </div>
-            </form>
-          </div>
-        </div>
-        <!-- <div class="coming-soon">
-          <p class="inline">Coming soon to:</p><%= image_tag 'icon-apple.png', class: "img-responsive inline" %> <%= image_tag 'icon-android.png', class: "img-responsive inline" %>
-        </div> -->
-      </div>
 
-      <div class="img"></div>
-    </div>
+          <div class="col-md-4 col-md-offset-4 col-footer col-padding">
 
-  </div>
+            <!-- Footer 1 -->
+            <section>
+              <p>Follow us on Twitter, Facebook or Pinterest</p>
+            </section>
 
-  <div id="features">
-    <div class="container">
-      <div class="row feature">
-        <div class="info center">
-          <h4 class="benefits">Benefits</h4>
-          <div class="col-md-4">
-            <%= image_tag 'Shop-50.png', class: "img-responsive inline" %>
-            <h6>All-In-One</h6>
-            <p>Never get redirected to another page or fill out checkout forms for each store. Find everything you need in one app.</p>
-          </div>
-          <div class="col-md-4">
-            <%= image_tag 'Ingredients-50.png', class: "img-responsive inline" %>
-            <h6>Real-time Data</h6>
-            <p>ShopNearby prodies real-time access to inventory, pricing, and aisle location within the store. No more guessing, hoping, or wandering through the store.</p>
-          </div>
-          <div class="col-md-4">
-            <%= image_tag 'User Groups-50.png', class: "img-responsive inline" %>
-            <h6>Buy online, pickup in store</h6>
-            <p>Add items to your shopping cart from multiple retailers, checkout once, and pickup your items at each store.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+            <!-- Social media links -->
+            <ul class="social-media-links">
 
-  <div id="features2">
-    <div class="container">
-      <div class="row feature backwards">
-        <div class="col-md-8 info">
-          <h4>Find specific items by distance or price</h4>
-          <p>
-            Go from searching to buying in just four simple steps. Whether you're a convenience shopping trying to get in and out or if you're a bargain hunter looking for the lowest price. ShopNearby has you covered for all your in-store shopping needs.
-          </p><br>
-        </div>
-        <div class="col-md-4 image animated fadeInLeft">
-          <%= image_tag("items.png", class: "img-responsive cool") %>
-        </div>
-      </div>
-      <!-- <div class="divider"></div>
-      <div class="row feature">
-        <div class="col-md-8 info">
-          <h4>Search or browse by store</h4>
-          <p>
-            Leveraging your existing technology, customers access real-time inventory, price, and aisle location at each store or they can buy online and pickup in store.
-          </p><br>
-        </div>
-        <div class="col-md-4 image">
-          <%= image_tag("ralphs.png", class: "img-responsive") %>
-        </div>
-      </div> -->
-      <!-- <div class="divider"></div>
-      <div class="row feature backwards">
-        <div class="col-md-8 info">
-          <h4>Real-time access to inventory, price and aisle location within the store</h4>
-          <p>
-            By providing mobile shoppers with real-time access to your inventory, they can buy items and receive and pick them up in-store instead of having someone deliver it. Also, shoppers can purchase items at more hours throughout the day than a delivery person.
-          </p><br>
-        </div>
-        <div class="col-md-4 image animated fadeInLeft">
-          <%= image_tag("razors.png", class: "img-responsive cool") %>
-        </div>
-      </div> -->
-<!--       <div class="divider"></div>
-      <div class="row feature">
-        <div class="col-md-8 info">
-          <h4>Shopping list</h4>
-          <p>
-            Compared to competitors like InstaCart, Google Express, or Postmates. By getting customers through your doors, they are more likely to spend more than they planned versus shopping on their phone.
-          </p><br>
-        </div>
-        <div class="col-md-4 image">
-          <%= image_tag("list.png", class: "img-responsive") %>
-        </div>
-      </div> -->
-      <!-- <div class="divider"></div>
-      <div class="row feature backwards">
-        <div class="col-md-8 info">
-          <h4>Pass-Through Model</h4>
-          <p>
-            Leveraging proprietary technology, customers checkout in-app using our shopping cart while you process payments, retain complete customer data and remain in control. When customers choose the "Buy online, pickup in store" they will receive an email and a receipt from you. Unlike the competition where they build relationships with customers, we help you build the relationship with existing and new customers.
-          </p><br>
-        </div>
-        <div class="col-md-4 image animated fadeInLeft">
-          <%= image_tag("cart.png", class: "img-responsive cool") %>
-        </div>
-      </div> -->
-    </div>
-  </div>
+              <li><a class="fa fa-twitter tw" href="#fakelinks"></a></li>
+              <li><a class="fa fa-facebook fb" href="#fakelinks"></a></li>
+              <li><a class="fa fa-pinterest pn" href="#fakelinks"></a></li>
 
-  <div id="cta">
-    <h2 class="green">What are you waiting for?</h2>
-    <p>
-      Get insider access for the latest news and updates.
-    </p><br>
-    <div class="row">
-      <div class="col-md-8 col-md-offset-2">
-        <form class="form">
-          <div class="form-group">
-            <input type="email" class="form-control" id="email" placeholder="Enter email address"><br>
-            <button type="submit" class="btn-green1">Become a VIP Shopper for Free</button>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
+            </ul> <!-- /.social-media-links -->
 
-  <!-- KickoffLabs AnyForm -->
-  <script>window.jQuery || document.write('<scr' + 'ipt src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"><\/sc' + 'ript>')</script>
-  <script>window.$kol_jquery = window.jQuery</script>
-  <script src="https://kickoffpages-kickofflabs.netdna-ssl.com/widgets/1.7.0/kol_any_form.js"></script>
-  <script src='https://kickoffpages-kickofflabs.netdna-ssl.com/w/59101/78809.js'></script>
+          </div> <!-- /.col-md-4 -->
 
-</body>
+        </div> <!-- /.row -->
+
+      </div> <!-- /.container -->
+
+    </footer> <!-- /.footer-section -->
+
+    <script>window.jQuery || document.write('<scr' + 'ipt src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"><\/sc' + 'ript>')</script>
+    <script>window.$kol_jquery = window.jQuery</script>
+    <script src="https://kickoffpages-kickofflabs.netdna-ssl.com/widgets/1.7.0/kol_any_form.js"></script>
+    <script src='https://kickoffpages-kickofflabs.netdna-ssl.com/w/59101/78809.js'></script>
+
+  </body>
