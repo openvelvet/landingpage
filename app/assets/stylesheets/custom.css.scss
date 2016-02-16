@@ -1144,10 +1144,11 @@ html {
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 17px;
-  line-height: 1.42857;
+  font-size: 18px;
+  line-height: 1.4;
   color: #545d5f;
   background-color: white;
+  font-weight: 300;
 }
 body.sign-in-up {
   background: #2e2f41 url(image-path('bg-1.png')) 0 0 no-repeat fixed;
@@ -2624,8 +2625,8 @@ input[type="checkbox"]:focus {
 output {
   display: block;
   padding-top: 7px;
-  font-size: 17px;
-  line-height: 1.42857;
+  font-size: 20px;
+  line-height: 1.5;
   color: #696f6f;
 }
 
@@ -3658,7 +3659,7 @@ tbody.collapse.in {
 }
 .jumbotron p {
   margin-bottom: 15px;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 300;
 }
 .jumbotron > hr {
@@ -6012,8 +6013,8 @@ tbody.collapse.in {
   width: 250px;
   height: auto;
 }
-.features-section .img-iPhone.margin-top {
-  top: -40px;
+.features-row-padding {
+  padding-bottom: 60px;
 }
 @media screen and (max-width: 800px) {
   .features-section .img-iPhone.margin-top {
