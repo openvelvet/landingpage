@@ -1314,7 +1314,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: 36px;
+  font-size: 30px;
 }
 
 h3, .h3 {
@@ -3657,11 +3657,23 @@ tbody.collapse.in {
 .jumbotron .h1 {
   color: white;
 }
+@media screen and (max-width: 376px) {
+  .jumbotron h1 {
+    font-size: 30px;
+  } }
+@media screen and (max-width: 321px) {
+  .jumbotron h1 {
+    font-size: 26px;
+  } }
 .jumbotron p {
   margin-bottom: 15px;
   font-size: 20px;
   font-weight: 300;
 }
+@media screen and (max-width: 321px) {
+  .jumbotron p {
+    font-size: 18px;
+  } }
 .jumbotron > hr {
   border-top-color: #d7dbde;
 }
@@ -3682,7 +3694,7 @@ tbody.collapse.in {
   }
   .jumbotron h1,
   .jumbotron .h1 {
-    font-size: 44px;
+    font-size: 40px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 320px) {
